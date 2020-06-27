@@ -1,4 +1,3 @@
-let num: number = 123
-
-document.title = 'ts'
-console.log(num)
+// import './example/basic_type'
+// import './example/symbol'
+import './example/interface'
