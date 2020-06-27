@@ -36,7 +36,9 @@ let arrs: Arr = [123, '123']
 // arr[0] = '123'
 
 // 类型别名形式
-type AddFunc = (num1: number, num2: number) => number
+interface AddFunc {
+  (num1: number, num2: number): number
+}
 
 const add: AddFunc = (n1, n2) => n1 + n2
 
