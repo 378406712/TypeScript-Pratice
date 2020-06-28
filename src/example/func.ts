@@ -25,8 +25,8 @@ const toFunc5 = (x: number, ...args: number[]) => {
 
 // 函数重载
 // 不能使用接口或者类型别名定义
-function handleData(x: number) // 函数重载
-function handleData(x: string) // 函数重载
+function handleData(x: number): number[] // 函数重载
+function handleData(x: string): string[] // 函数重载
 function handleData(x: any): any {
   // 函数实体
   if (typeof x === 'string') return x.split('')
@@ -36,7 +36,10 @@ function handleData(x: any): any {
       .split('')
       .map((item) => Number(item) * 10)
 }
-let len = handleData(11.5)
-let lens = len.map((item) => Number(item).toFixed())
-console.log(11.49999.toFixed())
-console.log((0.1*10+0.2*10)/10===0.3)
+// let len = handleData(11.5)
+// let lens = len.map((item) => Number(item).toFixed())
+// console.log((11.49999).toFixed())
+// console.log((0.1 * 10 + 0.2 * 10) / 10 === 0.3)
+// handleData('5')
+console.log(handleData(123))
+console.log(handleData('123'))
