@@ -2,4 +2,6 @@
 // import './example/symbol'
 // import './example/interface'
 // import './example/func'
-import './example/generics'
+// import './example/generics'
+// import './example/ex6-class'
+import './example/class'
