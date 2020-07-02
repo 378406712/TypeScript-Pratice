@@ -4,4 +4,7 @@
 // import './example/func'
 // import './example/generics'
 // import './example/ex6-class'
-import './example/class'
+// import './example/class'
+// import './example/enum'
+// import './example/interface-compat'
+import './example/advance-type1'

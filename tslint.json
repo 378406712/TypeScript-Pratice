@@ -5,6 +5,7 @@
     "exclude": ["node_modules/**"]
   },
   "rules": {
+    "max-classes-per-file": [false],
     "indent": [true, "spaces", 2],
     "interface-name": false,
     "ordered-imports": false,
@@ -15,10 +16,12 @@
     "eofline": false,
     "quotemark": false,
     "typedef-whitespace": false,
+    "no-angle-bracket-type-assertion": false,
     "no-console": false,
     "no-var-requires": false,
     "prefer-for-of": false,
     "forin": false,
+    "no-empty-interface": false,
     "variable-name": false,
     "no-empty": false,
     "noImplicitThis": false,
