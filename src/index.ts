@@ -7,4 +7,5 @@
 // import './example/class'
 // import './example/enum'
 // import './example/interface-compat'
-import './example/advance-type1'
+// import './example/advance-type1'
+import './example/advance-type2'
