@@ -8,4 +8,5 @@
 // import './example/enum'
 // import './example/interface-compat'
 // import './example/advance-type1'
-import './example/advance-type2'
+// import './example/advance-type2'
+import './module/index.js'
