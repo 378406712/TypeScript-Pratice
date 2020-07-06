@@ -9,4 +9,5 @@
 // import './example/interface-compat'
 // import './example/advance-type1'
 // import './example/advance-type2'
-import './module/index.js'
+// import './module/index.js'
+import './ts-module/index'
