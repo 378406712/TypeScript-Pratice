@@ -10,4 +10,6 @@
 // import './example/advance-type1'
 // import './example/advance-type2'
 // import './module/index.js'
-import './ts-module/index'
+// import './ts-module/index'
+// import './example/merging'
+import './example/decorate'

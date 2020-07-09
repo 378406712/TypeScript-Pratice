@@ -13,7 +13,8 @@
 // console.log(ttmoments === ttmoment)
 // console.log(Moment)
 
-/// <reference path = "./space.ts" />
+// tslint:disable-next-line: no-reference
+///  <reference path = "./space.ts" />
 let isWORD = Validation.checkLetter('123123')
 console.log(isWORD)
 
