@@ -12,4 +12,5 @@
 // import './module/index.js'
 // import './ts-module/index'
 // import './example/merging'
-import './example/decorate'
+// import './example/decorate'
+import './example/mixin'
