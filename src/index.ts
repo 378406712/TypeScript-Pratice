@@ -14,4 +14,6 @@
 // import './example/merging'
 // import './example/decorate'
 // import './example/mixin'
-import './example/update'
+// import './example/update'
+// import './module/handle-title.js'
+import './example/declare'
