@@ -1,0 +1,18 @@
+{
+  "name": "liu-array-map",
+  "version": "1.0.2",
+  "description": "array map function us ts",
+  "main": "./dist/liu-array-map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "clover"
+  ],
+  "author": "Clover<liu1996clover@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
+}
