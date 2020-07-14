@@ -16,4 +16,5 @@
 // import './example/mixin'
 // import './example/update'
 // import './module/handle-title.js'
-import './example/declare'
+// import './example/declare'
+import './example/index-declare'
